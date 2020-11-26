@@ -1,0 +1,48 @@
+=
+hr{
+	width:15%;
+	color:DarkRed;
+	border-style: none;
+	border-bottom-style: dotted; /* Нижня межа точки */
+	border-width: 7px;
+}
+body{
+	background-color: MediumPurple; /*Колір заливки */
+	font-family: Calibri,  sans-serif;
+
+}
+#pict{
+	width:20%;
+	border: solid blue 2px;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 12pt;
+	 font-variant: small-caps;
+}
+a:hover{
+	color:white;
+	font-weight: bold;
+	font-size: 14pt;
+}
+ul{
+		/*font-family: Times;*/
+		line-height: 1.5;
+
+}
+.wrt{
+	font-style: italic;
+	line-height: 1.5;
+	font-size:12pt;
+	color: white;
+}
+#knopka:hover{
+	background-color: lightblue;
+	color:red;
+}
+.pole:focus{
+	color:blue;
+	background-color: maroon;
+}
