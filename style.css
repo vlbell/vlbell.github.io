@@ -1,0 +1,607 @@
+body
+  {
+  font-family: Calibri;
+  margin:0;
+  }
+  html{
+	  margin:0px;
+  }
+  @media only screen and (min-device-width: 1280px){
+	h3
+		  {
+			padding-top:20px;
+		  text-align:center;
+		  }
+  .center
+		  {
+		  justify-content: center;
+		  }
+  nav
+		  {
+			height: 50px;
+		  }
+  .navicon
+		  {
+			width: 50px;
+			height: 50px;
+			 background:CadetBlue;
+		  }
+  .navtext
+		  {
+			 background:CadetBlue;
+			width: 20%;
+			height: 50px;
+			text-align: left;
+			font-size: 28px;
+			font-weight: bold;
+			font-style: italic;
+		  }
+  .navpanel
+		  {
+			background:CadetBlue;
+			width: 80%;
+			height: 50px;
+			font-size: 20px;
+			font-weight: bold;
+			font-style: italic;
+			text-align: left;
+		  }
+  .nav-link
+		  {
+			color: black;
+		  }
+  .ikonka
+		  {
+			height: 50px;
+			width: 50px;
+		  }
+  #flex-container
+		  {
+			display: flex;
+			justify-content:flex-start;
+			
+		  }
+  #flex-container2
+		  {
+			display: flex;
+			justify-content:space-between;
+			align-items:flex-start;
+		  }
+  #flex-container3
+		  {
+			display: flex;
+			justify-content:center;
+			align-items:center;
+			margin: 10px 0px 10px 0px;
+			 align-content: space-between;
+		  }
+  .flex-center
+		  {
+			display: flex;
+			justify-content: left;
+			flex-direction: column;
+			align-items: center;
+			width:100%;
+		  }
+  .flex-container3
+		  {
+			display: flex;
+			justify-content:center;
+			align-items:center;
+			margin-top:2%;
+		  }
+  header
+	  {
+			background:LightBlue;
+			height: 300px;
+			color: #101010;
+	  }
+  .header3
+		  {
+			width: 20%;
+			font-size: 21px;
+			font-weight: bold;
+			font-style: italic;
+			text-align: center;
+		  }
+  .header1
+		  {
+			  
+			display:flex;
+			justify-content:center;
+			width:35%;
+			height: 300px;
+			margin: 10px 0px 0px 40px;
+		  }
+  .header2
+		  {	
+			width: 65%;
+			height: 300px;
+			padding:2%;
+			text-align:justify;
+			font-weight: bold;
+			font-style: italic;
+			 color: #101010;
+			font-size: 18px;
+			
+		  }
+  .kartinka1
+		  {
+			height:80%
+		  }
+  section
+	  {
+		 /*цвет фона*/
+		 background:LightBlue;
+		height: auto;
+	  }
+  p
+		  {
+			text-align: center;
+			font-weight: bold;
+			font-style: italic;
+			text-align: center;
+			font-size: 28px;
+			width: 100%;
+			height: 50px;
+			color: #101010;
+		  }
+  .box1
+		  {
+			width: 200px;
+			height: 40px;
+			font-size: 24px;
+			margin: 10px 0px 10px 0px;
+			text-align: center;
+			font-weight: bold;
+			font-style: italic
+			color: #101010;
+		  }
+  .box2
+		  {
+			width: 500px;
+			height: 330px;
+		  }
+  .carus
+		  {
+			width: 500px;
+			height: 330px;
+			
+		   
+		  }
+  .btn
+		  {
+		   color: #101010;
+			font-weight: bold;
+			font-style: italic;
+			margin: 10px 10px 10px 0px;
+		  }
+  .card-img-top
+		  {
+			height: 10%;
+		  }
+  .card
+		  {
+			background:CadetBlue;
+			margin: 0px 20px 0px 15px;
+			font-weight: bold;
+			font-style: italic;
+		  }
+  .knopka{
+		  display:flex;
+		  justify-content:center;
+			}
+  footer
+		  {
+			background:CadetBlue;
+			height:50px;
+			font-weight: bold;
+			font-size: 30px;
+			text-align: center;
+			font-style: italic;
+			color:#101010;	
+			
+		  }
+  }
+@media (min-width: 551px) and (max-width: 1279px){  /*------------------------------------------------------------------*/
+	
+	h3
+		  {
+			padding-top:20px;
+		  text-align:center;
+		  }
+  .center
+		  {
+		  justify-content: center;
+		  }
+  nav
+		  {
+			height: 50px;
+		  }
+  .navicon
+		  {
+			width: 50px;
+			height: 50px;
+			 background:CadetBlue;
+			 margin:0px;
+		  }
+  .navtext
+		  {
+			 background:CadetBlue;
+			width: 20%;
+			height: 50px;
+			text-align: left;
+			font-size: 28px;
+			font-weight: bold;
+			font-style: italic;
+						 margin:0px;
+		  }
+  .navpanel
+		  {
+			background:CadetBlue;
+			width: 80%;
+			height: 50px;
+			font-size: 14px;
+			font-weight: bold;
+			font-style: italic;
+		  }
+  .nav-link
+		  {
+			color: black;
+		  }
+  .ikonka
+		  {
+			height: 50px;
+			width: 50px;
+		  }
+  #flex-container
+		  {
+			display: flex;
+			justify-content:flex-start;
+			
+		  }
+  #flex-container2
+		  {
+			display: flex;
+			justify-content:space-between;
+			align-items:flex-start;
+			margin:0;
+		  }
+  #flex-container3
+		  {
+			display: flex;
+			justify-content:center;
+			align-items:center;
+			margin: 10px 0px 10px 0px;
+			 align-content: space-between;
+		  }
+  .flex-center
+		  {
+			display: flex;
+			justify-content: left;
+			flex-direction: column;
+			align-items: center;
+			width:100%;
+		  }
+  .flex-container3
+		  {
+			display: flex;
+			justify-content:center;
+			align-items:center;
+			margin-top:2%;
+		  }
+  header
+	  {
+			background:LightBlue;
+			height:auto;
+			color: #101010;
+			padding:2%;
+			margin:0;
+	  }
+  .header3
+		  {
+			width: 20%;
+			font-size: 16px;
+			font-weight: bold;
+			font-style: italic;
+			text-align: center;
+		  }
+  .header1
+		  {
+			  
+			display:flex;
+			justify-content:center;
+			width:35%;
+			height: 300px;
+			margin: 10px 0px 0px 40px;
+		  }
+  .header2
+		  {	
+			width: 65%;
+			height: 300px;
+			padding:2%;
+			text-align:justify;
+			font-weight: bold;
+			font-style: italic;
+			 color: #101010;
+			font-size: 18px;
+			
+		  }
+  .kartinka1
+		  {
+			height:80%
+		  }
+  section
+	  {
+		 /*цвет фона*/
+		 background:LightBlue;
+		height: auto;
+	  }
+  p
+		  {
+			font-weight: bold;
+			font-style: italic;
+			text-align: center;
+			font-size: 28px;
+			width: 100%;
+			height: 50px;
+			color: #101010;
+		  }
+  .box1
+		  {
+			width: 200px;
+			height: 40px;
+			font-size: 24px;
+			margin: 10px 0px 10px 0px;
+			text-align: center;
+			font-weight: bold;
+			font-style: italic
+			color: #101010;
+		  }
+  .box2
+		  {
+			width: 500px;
+			height: 330px;
+		  }
+  .carus
+		  {
+			width: 500px;
+			height: 330px;
+			
+		   
+		  }
+  .btn
+		  {
+		   color: #101010;
+			font-weight: bold;
+			font-style: italic;
+			margin: 10px 10px 10px 0px;
+		  }
+  .card-img-top
+		  {
+			height: 10%;
+		  }
+  .card
+		  {
+			background:CadetBlue;
+			margin: 0px 20px 0px 15px;
+			font-weight: bold;
+			font-style: italic;
+		  }
+  .knopka{
+		  display:flex;
+		  justify-content:center;
+			}
+  footer
+		  {
+			background:CadetBlue;
+			height:50px;
+			font-weight: bold;
+			font-size: 20px;
+			text-align: center;
+			font-style: italic;
+			color:#101010;	
+			
+		  }
+}
+@media ( max-width: 551px){ /*-----------------------------------------------------------------------------*/
+		h3
+		  {
+			padding-top:20px;
+		  text-align:center;
+		  }
+  .center
+		  {
+		  justify-content: center;
+		  }
+  nav
+		  {
+			height: 50px;
+		  }
+  .navicon
+		  {
+			  
+			display:none;
+			width: 50px;
+			height: 50px;
+			 background:CadetBlue;
+			 margin:0px;
+		  }
+  .navtext
+		  {
+			 background:CadetBlue;
+			width: 20%;
+			height: 50px;
+			text-align: left;
+			font-size: 16px;
+			font-weight: bold;
+			font-style: italic;
+						 margin:0px;
+		  }
+  .navpanel
+		  {
+			background:CadetBlue;
+			width: 80%;
+			height: 50px;
+			font-size: 10px;
+			font-weight: bold;
+			font-style: italic;
+		  }
+  .nav-link
+		  {
+			color: black;
+		  }
+  #flex-container
+		  {
+			display: flex;
+			justify-content:flex-start;
+			height:auto;
+			
+		  }
+  #flex-container2
+		  {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			flex-direction: column;
+				  }
+  #flex-container3
+		  {
+			display: flex;
+			justify-content:center;
+			align-items:center;
+			margin: 10px 0px 10px 0px;
+			 align-content: column;
+		  }
+  .flex-center
+		  {
+			display: flex;
+			justify-content: left;
+			flex-direction: column;
+			align-items: center;
+			width:100%;
+		  }
+  .flex-container3
+		  {
+			display: flex;
+			justify-content:center;
+			align-items:center;
+			margin-top:2%;
+		  }
+  header
+	  {
+			background:LightBlue;
+			height:auto;
+			color: #101010;
+			padding:2%;
+			margin:0;
+	  }
+  .header3
+		  {
+			width: 100%;
+			font-size: 16px;
+			font-weight: bold;
+			font-style: italic;
+			text-align: center;
+		  }
+  .header1
+		  {
+		
+			display:flex;
+			justify-content:center;
+			width:100%;
+			height:200px;
+			
+		  }
+  .header2
+		  {	
+			width: 100%;
+			height: auto;
+			padding:2%;
+			text-align:justify;
+			font-weight: bold;
+			font-style: italic;
+			 color: #101010;
+			font-size: 18px;
+			
+		  }
+  .kartinka1
+		  {
+			height:60%;
+			margin:0px;
+			padding:0px;
+		  }
+  section
+	  {
+		 /*цвет фона*/
+		 background:LightBlue;
+		height: auto;
+	  }
+  p
+		  {
+			font-weight: bold;
+			font-style: italic;
+			text-align: center;
+			font-size: 28px;
+			width: 100%;
+			height: 50px;
+			color: #101010;
+		  }
+  .box1
+		  {
+			width: 100%;
+			height: 40px;
+			font-size: 24px;
+			margin: 10px 0px 10px 0px;
+			text-align: center;
+			font-weight: bold;
+			font-style: italic
+			color: #101010;
+		  }
+  .box2
+		  {
+			width: 100%;	
+		  }
+  .carus
+		  {
+			width: 100%;
+			height: auto;
+			
+		   
+		  }
+  .btn
+		  {
+		   color: #101010;
+			font-weight: bold;
+			font-style: italic;
+			margin: 10px 10px 10px 0px;
+		  }
+  .card-img-top
+		  {
+			height: 10%;
+		  }
+  .card
+		  {
+			background:CadetBlue;
+			margin: 0px 20px 0px 15px;
+			font-weight: bold;
+			font-style: italic;
+		  }
+  .knopka{
+		  display:flex;
+		  justify-content:center;
+			}
+  footer
+		  {
+			background:CadetBlue;
+			height:20px;
+			font-weight: bold;
+			font-size: 10px;
+			text-align: center;
+			font-style: italic;
+			color:#101010;	
+			
+		  }
+	
+}
+  
